@@ -1,0 +1,16 @@
+@import url('https://fonts.googleapis.com/css2?family=Alkatra&display=swap');
+body{
+    background-color: black;
+
+}
+#clock{
+    font-size: 165px;
+    width: 900px;
+    margin: 200px;
+    margin-left: auto;
+    text-align: center;
+    border: 2px solid rgb(210, 7, 7);
+    border-radius: 20px;
+    font-family: 'Alkatra', cursive;
+    color: white;
+}
