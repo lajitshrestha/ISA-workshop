@@ -1,5 +1,5 @@
-setInterval(showTime,1000);
-function showTime(){
+setInterval(date,1000);
+function date(){
     let time = new Date();
     let hour = time.getHours();
     let min = time.getMinutes();
@@ -24,4 +24,4 @@ function showTime(){
     document.getElementById("clock").innerHTML = currentTime;
 }
 
-showTime();
+date();
