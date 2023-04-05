@@ -1,0 +1,59 @@
+@import url('https://fonts.googleapis.com/css2?family=Alkatra&family=Lato:wght@300&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Alkatra', cursive;
+    font-family: 'Lato', sans-serif;
+    font-size: 110%;
+}
+body{
+    background-color: #A0AECD;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+.card {
+    background: #f4acd3;
+    padding: 2em;
+    border-radius: 30px;
+    width: 100%;
+    max-width: 420px;
+    margin: 1em;
+}
+input.search-bar {
+    border: none;
+    outline: none;
+    padding: 0.8em;
+    border-radius: 18px;
+    font-family: inherit;
+    color: black;
+    font-size: 120%;
+    width: calc(100% - 80px);
+}
+h2.city {
+    margin: 10px 0;
+}
+.description {
+    text-transform: capitalize;
+}
+
+.weatheronload{
+    visibility: hidden;
+    max-height: 20px;
+    position: relative;
+}
+
+.weatheronload:after{
+    visibility: visible;
+    content: "data is fetching";
+    position: absolute;
+    top: 0;
+    left: 20px;
+}

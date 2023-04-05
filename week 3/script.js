@@ -96,17 +96,26 @@
   
 
 // --------9--------
-function binary(a) {
-    let list1 = [];
-    let remainder = 0;
-    while (a > 0) {
-      remainder = a % 2;
-      list1.push(remainder);
-      a = Math.floor(a / 2);
-    }
-    return list1.reverse();
-  }
+// function binary(a) {
+//     let list1 = [];
+//     let remainder = 0;
+//     while (a > 0) {
+//       remainder = a % 2;
+//       list1.push(remainder);
+//       a = Math.floor(a / 2);
+//     }
+//     return list1.reverse();
+//   }
   
-  let number = binary(10);
-  console.log(number); 
+  // let number = binary(10);
+  // console.log(number); 
+
+  function helo (callback1){
+    console.log('calling 1');
+    callback1();
+  }
+
+  let helo = (()=>{
+    setTimeout((console.log('hello')),2000)
+  })
   
